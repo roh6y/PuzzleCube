@@ -1,0 +1,89 @@
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: teal;
+	font-family: 'Itim','Helvetica','Trebuchet MS';
+}
+h1{
+	color: white;
+}
+h2{
+	font-family:  'Ropa Sans', 'Helvetica',serif;
+}
+.nav-links{
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}
+.nav-links li{
+	list-style: none;
+	font-size: 18px;
+}
+.nav-links a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 3px;
+	padding: 14px 16px;
+}
+.nav-links li a:hover:not(.active){
+	background-color: lightseagreen;
+}
+.nav-links li a.active{
+	background-color: orangered;
+}
+.tixo{
+height: 40px;
+width: 50px;
+padding-right: 15px;
+}
+.cubes{
+	padding-top: 20px;
+	padding-left: 50px;
+	height: 180px;
+	width: 180px;
+}
+
+.hg{
+	font-family: 'Rajdhani', sans-serif;
+}
+#wrld{
+position: block;
+margin-top: 20px;
+margin-left: 0.5em;
+}
+.btn {
+  background: #d9344a;
+  background-image: -webkit-linear-gradient(top, #d9344a, #2980b9);
+  background-image: -moz-linear-gradient(top, #d9344a, #2980b9);
+  background-image: -ms-linear-gradient(top, #d9344a, #2980b9);
+  background-image: -o-linear-gradient(top, #d9344a, #2980b9);
+  background-image: linear-gradient(to bottom, #d9344a, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 12px 8px 7px #4c70b8;
+  -webkit-box-shadow: 4px 3px 8px #8a9e99;
+  -moz-box-shadow: 4px 3px 8px #8a9e99;
+  box-shadow: 4px 3px 8px #8a9e99;
+  font-family: Georgia;
+  color: #f5faf8;
+  font-size: 25px;
+  padding: 14px 17px 14px 20px;
+}
+
+.btn:hover {
+  background: #ec3cfc;
+  background-image: -webkit-linear-gradient(top, #ec3cfc, #3498db);
+  background-image: -moz-linear-gradient(top, #ec3cfc, #3498db);
+  background-image: -ms-linear-gradient(top, #ec3cfc, #3498db);
+  background-image: -o-linear-gradient(top, #ec3cfc, #3498db);
+  background-image: linear-gradient(to bottom, #ec3cfc, #3498db);
+  text-decoration: none;
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+}
